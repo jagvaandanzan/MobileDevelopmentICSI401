@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lab4</string>
+    <string name="gadaadUg">Гадаад үг</string>
+    <string name="mongolUg">Монгол үг</string>
+    <string name="previous">Өмнөх</string>
+    <string name="edit">Засах</string>
+    <string name="add">Нэмэх</string>
+    <string name="delete">Устгах</string>
+    <string name="next">Дараах</string>
+    <string name="insert">Оруулах</string>
+    <string name="cancel">Буцах</string>
+    <string name="onlyF">Гадаад үгийг ил харуулна</string>
+    <string name="onlyM">Монгол үгийг ил харуулна</string>
+    <string name="onlyB">Хоёуланг ил харуулна</string>
+    <string name="save">Хадгалах</string>
+</resources>

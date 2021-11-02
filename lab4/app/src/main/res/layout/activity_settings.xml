@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <RadioGroup
+        android:id="@+id/radGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radOnlyF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/onlyF"/>
+        <RadioButton android:id="@+id/radOnlyM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onlyM"/>
+        <RadioButton android:id="@+id/radOnlyB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onlyB"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/radGroup">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="0dp"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+
+</RelativeLayout>
