@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lab3 Agvaandanzan</string>
+    <string name="frame">FrameLayout</string>
+    <string name="ner">НЭР:</string>
+    <string name="nas">НАС:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="defaultName">Agvaandanzan</string>
+    <string name="defaultAge">19</string>
+    <string name="relative">RELATIVELAYOUT</string>
+    <string name="line">LINEARLAYOUT</string>
+    <string name="genderMale">Эр</string>
+    <string name="genderFemale">Эм</string>
+    <string name="genderUnknown">Тодорхойгүй</string>
+    <string name="birthDay">Төрсөн өдөр</string>
+    <string name="java">Java</string>
+    <string name="c">C</string>
+    <string name="cSharp">C#</string>
+    <string name="tableLayout">TABLELAYOUT</string>
+    <string name="hintName">Нэрээ оруулна уу</string>
+    <string name="hintAge">Насаа оруулна уу</string>
+    <string name="frameLayout">FRAMELAYOUT</string>
+</resources>

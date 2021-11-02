@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tableActivity">
+
+        <TableRow
+            android:padding="50dp">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radBtnMale"
+                    android:text="@string/genderMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/radBtnFemale"
+                    android:text="@string/genderFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TimePicker
+                android:id="@+id/timePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:timePickerMode="clock" />
+        </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnTableOk"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ok" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btnTableCancel"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+    </TableRow>
+
+</TableLayout>
